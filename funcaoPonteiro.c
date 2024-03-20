@@ -21,14 +21,14 @@ int main(void){
 	int c;
 	
 	puts("Antes da chamada da função:");
-	printf("&a = %a, a = %d\n", &a, a);
+	printf("&a = %p, a = %d\n", &a, a);
 	printf("&b = %p, b = %d\n", &b, b);
 	printf("&c = %p, c = %d\n\n", &c, c);
 	
 	c = soma(a, b);
 	
 	puts("Depois da chamada da função:");
-	printf("&a = %a, a = %d\n", &a, a);
+	printf("&a = %p, a = %d\n", &a, a);
 	printf("&b = %p, b = %d\n", &b, b);
 	printf("&c = %p, c = %d\n", &c, c);
 	
